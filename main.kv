@@ -1,0 +1,39 @@
+<MainScreen>:
+    name: 'mainscreen'
+
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: 1, .8
+
+        ScrollView:
+            size_hint_y: None
+            height: self.parent.height 
+            do_scroll_x: False
+            do_scroll_y: True
+            always_overscroll: True
+            pos_hint: {'x': 0, 'y': 1}
+
+            GridLayout:
+                id: grid_layout
+                cols: 1
+                size_hint_y: None
+                height: self.minimum_height 
+
+                Label:
+                    id: brainflowdata
+                    size_hint_y: None
+                    text_size: self.width, None
+                    height: self.texture_size[1]
+                    font_size: "10sp"
+
+    BoxLayout:
+        size_hint: 1, .2
+        Button:
+            text: 'Start'
+            size_hint: (1, .5)
+            on_press: root.start_process()
+
+        Button:
+            text: 'Stop'
+            size_hint: (1, .5)
+            on_press: root.stop_connection()
