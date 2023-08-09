@@ -40,3 +40,15 @@ jobs:
         with:
           name: package
           path: ${{ steps.buildozer.outputs.filename }}
+          
+      - name: Accept Android SDK Licenses
+        run: echo "y" | sdkmanager --licenses
+
+      - name: Install Android Build Tools
+        run: sdkmanager "build-tools;30.0.3"  # Replace with the version you need
+
+      - name: Install aidl Tool
+        run: sdkmanager "build-tools;30.0.3"  # Use the same version as above
+
+
+
