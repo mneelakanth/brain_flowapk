@@ -50,5 +50,10 @@ jobs:
       - name: Install aidl Tool
         run: sdkmanager "build-tools;30.0.3"  # Use the same version as above
 
+      - name: Buildozer action
+        uses: ArtemSBulgakov/buildozer-action@v1.1.3
+
+      
+
 
 
