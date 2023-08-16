@@ -570,7 +570,7 @@ fullscreen = 0
 
 # android.archs = arm64-v8a, armeabi-v7a
 
-android.archs = armeabi-v7a, arm64-v8a
+android.archs = arm64-v8a, armeabi-v7a
 
 
 
