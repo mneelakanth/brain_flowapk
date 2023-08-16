@@ -76,7 +76,7 @@ version = 0.1
 
 # comma separated e.g. requirements = sqlite3,kivy
 
-requirements = python3==3.8.1, kivy, brainflow, hostpython
+requirements = python3==3.8, kivy, brainflow
 
 
 
