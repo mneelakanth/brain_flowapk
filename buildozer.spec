@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, kivy, brainflow==5.3.0, numpy, nptyping, typing-extensions
+requirements = python3, kivy, brainflow, numpy, nptyping==1.4.4, typing-extensions
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
