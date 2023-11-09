@@ -13,7 +13,7 @@ package.domain = org.test
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,kv,atlas,zip
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -44,7 +44,7 @@ requirements =
   nptyping==1.4.4, 
   typing-extensions, 
   typish==1.9.3,
-  https://github.com/brainflow-dev/brainflow/archive/refs/heads/master.zip
+  brainflow.zip
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
