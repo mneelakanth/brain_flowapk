@@ -44,7 +44,7 @@ requirements =
   nptyping==1.4.4, 
   typing-extensions, 
   typish==1.9.3,
-  brainflow.zip
+  https://github.com/mneelakanth/brainflow_python_package/archive/refs/heads/main.zip
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
